@@ -16,7 +16,7 @@ def create_app():
         """Возвращает имя и версию приложения."""
         return jsonify(
             service="devops-ci-app",
-            version="1.0.0",
+            version="1.1.0-isaev",
             status="running",
         )
 
